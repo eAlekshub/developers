@@ -1,0 +1,730 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+
+@media screen and (min-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    
+  }
+
+  h1 {
+    margin: 0 auto;
+    width: 74%;
+    font-size: 40px;
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 4px;
+  }
+
+  .header-menu {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 12px;
+    background-color: #fff;
+  }
+
+  .header-logo {
+    margin-bottom: 12px;
+  }
+
+  .header-nav-bar {
+    font-weight: 600;
+  }
+
+  .header-nav-bar li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .header-nav-bar li:first-child {
+    margin-left: 0;
+  }
+
+  .header-nav-bar li a {
+    color: #363636;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .about-clinic-img img,
+  .appointment-img img {
+    width: 100%;
+  }
+
+  .header-title {
+    background: url("../img/lady.jpg") 25% 20% / cover no-repeat;
+
+    margin-top: 90px;
+    padding-top: 116px;
+  }
+
+  .header-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #363636;
+  }
+
+  .header-icons {
+    margin: 20px 20px 32px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
+  }
+
+  .icon,
+  .arrow-up {
+    width: 50px;
+    height: 50px;
+    background-color: #0078aa;
+    border: 2px solid #0078aa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon svg {
+    fill: #fff;
+    width: 62%;
+  }
+
+  .arrow-up {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+  }
+
+  .arrow-up a {
+    width: 100%;
+    text-decoration: none;
+    }
+
+  .arrow-up a p{
+    padding-top: 4px;
+    height: 100%;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .about-clinic-text p {
+    color: #0078aa;
+  }
+
+  .description-text {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 22px;
+  }
+
+  .text-heading {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .text-heading span {
+    color: #0078aa;
+    font-size: 14px;
+  }
+
+  .text-body {
+    margin-bottom: 16px;
+  }
+
+  .text-body:last-child {
+    margin-bottom: 46px;
+  }
+
+  .can-help {
+    background: url("../img/services_bg.jpg") 2% 0%;
+    padding-bottom: 15px;
+  }
+
+  .can-help h2 {
+    padding-top: 30px;
+  }
+
+  .service {
+    margin: 24px auto 20px auto;
+    width: 386px;
+    height: 240px;
+    display: flex;
+    align-items: end;
+  }
+
+  .ophthalmology {
+    background: url("../img/icons/oftalmology.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .dentistry {
+    background: url("../img/icons/dentistry.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .cardiology {
+    background: url("../img/icons/cardiology.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .pediatrics {
+    background: url("../img/icons/pediatrics.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .laboratory {
+    background: url("../img/icons/laboratory.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .radiology {
+    background: url("../img/icons/radiology.jpg") 10% 20% no-repeat #fff;
+  }
+
+  .service-wrap {
+    margin: 24px 24px 26px 24px;
+    text-align: left;
+  }
+
+  .special-offers {
+    margin-top: 30px;
+  }
+
+  .special-offers h2 {
+    margin-bottom: 0;
+  }
+
+  .special-offers .description-text {
+    margin-bottom: 26px;
+  }
+
+  .offers-block h3 {
+    font-size: 24px;
+  }
+
+  .card-offers {
+    padding-top: 30px;
+    color: #fff;
+    background-color: #47c9e5;
+    width: 384px;
+    height: 544px;
+    margin: 0 auto 15px auto;
+  }
+
+  .card-offers:nth-child(2) {
+    color: #0078aa;
+    background-color: #fff;
+    border: 2px solid #0078aa;
+  }
+
+  .card-offers li {
+    list-style: none;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .card-offers li:nth-child(5) {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .card-offers ul .oral-hygiene {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-offers li:last-child {
+    margin-top: 10px;
+    margin-bottom: 36px;
+  }
+
+  .price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .treatments {
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  .offers-button {
+    cursor: pointer;
+    width: 114px;
+    height: 46px;
+    border: 2px solid #0078aa;
+    background-color: #fff;
+    color: #0078aa;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.5s;
+  }
+
+  .appointment-form h2 {
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+
+  input,
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  input {
+    width: 80%;
+    padding: 10px;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  input:focus {
+    outline: 0;
+  }
+
+  .form-input {
+    margin-bottom: 20px;
+  }
+
+  .form-button {
+    cursor: pointer;
+    background-color: #0078aa;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 94px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+  }
+
+
+  footer {
+    background-color: #363636;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+
+  .header-nav-bar {
+    margin-top: 13px;
+    margin-right: 35px;
+  }
+
+  .header-nav-bar li a {
+    margin-right: 4px;
+    transition: all 0.5s;
+  }
+
+  .header-nav-bar li a:hover {
+    color: #0078aa;
+  }
+
+  h1,
+  .header-text,
+  .header-icons {
+    margin-left: 0;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+  }
+  .header-icons {
+    justify-content: start;
+  }
+
+  .header-title {
+    background-size: cover;
+    background-position: 38% 0;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 195px;
+    padding-bottom: 100px;
+    margin-top: 58px;
+  }
+
+  .header-text {
+    width: 450px;
+  }
+  .icon {
+    cursor: pointer;
+    margin-right: 25px;
+    transition: all 0.5s;
+  }
+
+  .icon:hover {
+    background-color: #fff;
+    border: 2px solid #0078aa;
+  }
+
+  .icon:hover svg {
+    fill: #0078aa;
+  }
+
+  .about-clinic {
+    padding-top: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-clinic-img,
+  .about-clinic-text {
+    width: 50%;
+  }
+
+  .about-clinic-text {
+    padding-left: 35px;
+  }
+
+  .block-title {
+    margin-top: 15px;
+  }
+
+  .can-help {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .service {
+    width: 30%;
+    margin: 5px 0 20px 0;
+    height: 272px;
+    background-position: 24% 14%;
+  }
+
+  .service-top, .service-bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .service-wrap h3 {
+    margin-bottom: 10px;
+  }
+
+  .special-offers {
+    background: url("../img/pricing_bg.jpg") center/ cover no-repeat;
+  }
+
+  .offers-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-offers h2 {
+    margin-top: 35px;
+  }
+
+  .card-offers {
+    margin-top: 15px;
+    padding-top: 34px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 244px;
+    height: 530px;
+  }
+
+  .card-offers:nth-child(2) {
+    padding-top: 46px;
+    margin-top: 0;
+    width: 250px;
+    height: 566px;
+  }
+
+  .card-offers ul .oral-hygiene {
+    margin-top: 22px;
+    margin-bottom: 26px;
+  }
+
+  .card-offers li:nth-child(6) {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .appointment {
+    display: flex;
+  }
+
+  .offers-button:hover {
+    background-color: #0078aa;
+    color: #fff;
+  }
+
+  .appointment-img,
+  .appointment-form {
+    width: 50%;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .appointment-form {
+    background-color: #fff;
+    margin-top: 54px;
+  }
+
+  .appointment-img img {
+    width: 190%;
+    position: relative;
+    top: 26px;
+    right: 38px;
+    padding-bottom: 20px;
+  }
+
+  .appointment-form h2 {
+    margin: 30px 0 5px 30px;
+    width: 300px;
+  }
+
+  .appointment-form p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    padding: 5px;
+  }
+
+  .form-button {
+    margin: 15px 0 0 36px;
+  }
+
+  .form-button:hover {
+    background-color: #fff;
+    color: #0078aa;
+    border: 2px solid #0078aa;
+  }
+
+  .form-input {
+    margin-bottom: 22px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-menu {
+    padding-left: 130px;
+    padding-right: 110px;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  .header-logo {
+    padding-top: 5px;
+  }
+
+  .header-nav-bar li {
+    margin-right: 0;
+  }
+
+  .header-title {
+    margin-left: 140px;
+    padding-top: 155px;
+    padding-bottom: 60px;
+    background-position: right;
+  }
+
+  h1 {
+    font-size: 36px;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+  .header-text {
+    font-size: 14px;
+    width: 410px;
+  }
+
+  .header-icons {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+  }
+
+  .about-clinic {
+    padding-top: 50px;
+  }
+  .block-title {
+    margin-top: 50px;
+  }
+
+  .about-clinic-text {
+    padding-left: 24px;
+  }
+
+  .description-text {
+    margin-bottom: 12px;
+  }
+
+  .text-body {
+    width: 390px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .can-help h2 {
+    margin-top: 20px;
+  }
+
+  .block-title {
+    font-size: 28px;
+  }
+
+  .description-text {
+    font-size: 13px;
+  }
+
+  .service-top, .service-bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .service {
+    margin: 12px;
+    width: 320px;
+    height: 200px;
+    background-position: 13% 14%;
+  }
+
+  .service-wrap {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+ 
+  .special-offers h2 {
+    margin-top: 60px;
+  }
+
+  .special-offers .description-text {
+    margin-bottom: 44px;
+  }
+
+  .card-offers:nth-child(2) {
+    width: 330px;
+    height: 520px;
+    padding-top: 60px;
+  }
+
+  .card-offers {
+    margin-top: 28px;
+    width: 328px;
+    height: 465px;
+  }
+
+  .offers-block h3 {
+    font-size: 20px;
+  }
+
+  .price {
+    margin-top: 15px;
+    font-size: 50px;
+  }
+
+  .treatments {
+    font-size: 14px;
+  }
+
+  .card-offers li {
+    margin-top: 22px;
+  }
+
+  .card-offers li:nth-child(6) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .offers-button {
+    width: 94px;
+    height: 40px;
+  }
+
+  .card-offers ul .oral-hygiene {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .appointment-form h2 {
+    margin: 48px 0 5px 26px;
+    font-size: 28px;
+    width: 90%;
+  }
+
+  .appointment-img img {
+    width: 100%;
+    top: 50px;
+    right: 0;
+    padding-bottom: 42px;
+  }
+
+  .form-input {
+    margin-left: 26px;
+    margin-bottom: 16px;
+  }
+
+  .appointment-form p {
+    margin-bottom: 22px;
+  }
+
+  input {
+    width: 92%;
+    font-size: 12px;
+  }
+
+  .form-input {
+    margin-bottom: 15px;
+  }
+
+  .form-button {
+    margin: 0 20px;
+    width: 84px;
+    height: 40px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
